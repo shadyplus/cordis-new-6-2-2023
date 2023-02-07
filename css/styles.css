@@ -7,7 +7,7 @@ img{border:none;}
 h1{ font-family: 'Droid Serif', serif; font-weight:normal; color:#fff;}
 h2{ font-family: 'Droid Serif', serif; font-weight:normal; color:#fff; font-size:18px;}
 P{ line-height:22px; color: white; font-size: 18px;}
-a{text-decoration:none; color:#1491c1;}
+a{text-decoration:none; color:#02ff47;}
 a:hover{color:#fff;}
 
 
@@ -31,7 +31,7 @@ GENERAL CLASSES
 .panel{}
 .title{}
 .content{}
-.wrap{width:960px; margin:0 auto;overflow:hidden; background:url(../images/page-bg.jpg);}
+.wrap{    width: 1339px;  margin:0 auto;overflow:hidden; background:url(../images/page-bg.jpg);}
 .page{
    /* width:580px; */
    margin:0 auto;overflow:hidden; padding-bottom:50px;}
@@ -84,7 +84,7 @@ LEFTCOL CLASSES
 -------------------------------------------------*/
 .leftcol{ float:left; width:300px; overflow:hidden;}
 .leftcol .title{ margin-bottom:25px;}
-.leftcol .content ul li{ list-style:none; border-bottom:#0c4680 solid 1px; line-height:40px;}
+.leftcol .content ul li{ list-style:none; border-bottom:#0c4680 solid 1px; line-height:40px;     font-size: 16px; }
 .leftcol .content ul li a{ text-decoration:none; color:#1491c1;}
 .leftcol .content ul li a:hover{color:#80d2f8;}
 .leftcol .panel img{ float:left; border:#fff solid 4px; margin:9px 20px 0px 0px;}
@@ -96,11 +96,10 @@ LEFTCOL CLASSES
 RIGHT CLASSES
 -------------------------------------------------*/
 .rightcol{ 
-  /* float:left; */
   margin: auto;
-  width: 916px;
-   /* width:660px; */
-    overflow:hidden;}
+    width: 948px;
+    overflow: hidden;
+    padding: 19px;}
 .rightcol .title{ margin-bottom:25px;}
 .rightcol .button{ margin-top:0px;}
 .rightcol img{ margin: auto; border-radius: 20px;}
@@ -227,10 +226,32 @@ FOOTER CLASSES
 } */
 
 #hrrr{
-  background: black;
+  background: #527de2;
     height: 4px;
     border: none;
     border-radius: 23px;
     margin-bottom: 14px;
     margin-top: 10px;
+}
+#comment{
+  padding: 25px;
+
+}
+#khasm{
+  border-left: 9px solid green;
+    border-radius: 20px;
+    border-right: 9px solid green;
+    padding: 15px;
+    margin-top: 23px;
+    background: darkslategrey;
+}
+#ull {
+  list-style-type: disc;
+    list-style-position: inside;
+    font-size: 21px;
+    color: wheat;
+    line-height: 2;
+}
+#wep p{
+ line-height: 1.5;
 }
